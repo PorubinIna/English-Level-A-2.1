@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto&display=swap');
+*{box-sizing: border-box;}
+body{
+    font-size: 17px;
+    margin: 0px;
+    font-family: Roboto;
+}
+header{
+    background-color: rgb(239, 208, 7);
+    min-height: 65px;
+    padding-right: 5%;
+
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
+}
+h1{
+    font-size: 50px;
+    font-family: Roboto;
+    text-shadow: 3px 2px 10px violet;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 5px grey;
+}
+h4{
+    font-size: 15px;
+    font-family: Roboto;
+    text-shadow: 1px 2px 5px grey;
+    
+}
+.cover{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    padding-top: 57px;
+    
+    z-index: -1;
+}
+.section-info{
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    font-family: Play;
+    color: blue;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+nav{float: right;}
+nav a{
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: Play;
+}
+nav a:hover{
+    color:#012101;
+    text-decoration: underline 1px #012101 ;
+}
+.lesson1{
+    padding-top: 57px;
+    padding-left: 25px;   
+}
+.lesson{
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.wordwall{
+    padding-top: 10px;
+    padding-left:95px ;
+}
+.audio{
+    padding-left: 90px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listen{
+    padding-left:80px;
+}
+.video{
+    padding-left:80px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.space{border: 2px solid black;}
+footer{
+    min-height: 70px;
+    background-color:rgba(239, 208, 7, 0.815);
+    color:blue;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.quizframe {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered{
+    text-align:center;
+    padding-top: 30px;
+}
+.link{
+    border: 1px solid lightgrey;
+    display: block;
+    width: 260px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.link:hover{
+    transform: scale(1.04);
+}
+.link img{
+    height: 100px;
+}
+.linkuri{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
